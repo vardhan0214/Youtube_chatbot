@@ -6,4 +6,4 @@ from indexing.text_splitter import chunks
 
 vector_store = FAISS.from_documents(chunks, embedding_model)
 
-print(vector_store.index_to_docstore_id)
+# print(vector_store.index_to_docstore_id)
